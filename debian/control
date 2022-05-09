@@ -1,0 +1,16 @@
+Source: website-content
+Section: admin
+Priority: optional
+Maintainer: Sipwise Development Team <support@sipwise.com>
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.5.1
+Homepage: https://www.sipwise.com/
+
+Package: sipwise-website-content
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: Repo contains company website content
+ Contains markdown content files.
